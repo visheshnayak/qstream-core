@@ -4,8 +4,8 @@
 int main() {
     int message = 42;
 
-    int encoded = encode_message(message);
-    int decoded = decode_message(encoded);
+    int encoded = qstream::encode_message(message);
+    int decoded = qstream::decode_message(encoded);
 
     std::cout << "Original: " << message << "\n";
     std::cout << "Encoded: " << encoded << "\n";
