@@ -14,6 +14,10 @@ add_executable(qstream
     src/protocol.cpp
 )
 
+add_executable(type_inspection
+    src/type_inspection.cpp
+)
+
 target_include_directories(qstream PRIVATE include)
 
 target_compile_options(qstream PRIVATE
