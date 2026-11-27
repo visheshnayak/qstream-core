@@ -18,6 +18,10 @@ add_executable(type_inspection
     src/type_inspection.cpp
 )
 
+add_executable(bitwise
+    src/bitwise.cpp
+)
+
 target_include_directories(qstream PRIVATE include)
 
 target_compile_options(qstream PRIVATE
